@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div>
 
-                <Navbar/>
+                {/* <Navbar/> */}
       {/* main  */}
 
             <div className="bg-gradient-to-r from-purple-100 via-pink-100 to-pink-200 mt-4 ml-4 mr-4 flex-col rounded-3xl h-[850px] flex justify-center items-center ">
@@ -23,7 +23,7 @@ const Hero = () => {
 
 
             {/* cards  */}
-                   <Herocards/>
+                   {/* <Herocards/> */}
 
   
 
