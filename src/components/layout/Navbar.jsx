@@ -36,7 +36,7 @@ const Navbar = () => {
         <Blackbutton/>
         <Blackbutton/>
         
-        
+         
 
 
         </div>
