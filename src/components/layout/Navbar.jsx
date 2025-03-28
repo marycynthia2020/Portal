@@ -13,7 +13,7 @@ const Navbar = () => {
 
           <div className="gap-5">
           <ul className="flex gap-9 bg-gray-200 p-0 items-center justify-center rounded-3xl w-80">
-            <li className="font-medium text-gray-500 text-lg hover:bg-white  hover:p-1.5 hover:text-gray-950 rounded-3xl  px-1 py-2">
+            <li className="font-bold text-gray-500 text-lg hover:bg-white  hover:p-1.5 hover:text-gray-950 rounded-3xl  px-1 py-2">
               <a href="">Solution</a>
             </li>
 
