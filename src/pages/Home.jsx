@@ -7,7 +7,6 @@ import Joinsection from '../components/Joinsection'
 const Home = () => {
   return (
     <div>HOME
-      <Joinsection />
     </div>
 
   )
