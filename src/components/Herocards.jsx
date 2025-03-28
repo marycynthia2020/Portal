@@ -1,4 +1,9 @@
 import React from 'react'
+import hub from '../assets/images/hub.svg'
+import wallet from '../assets/images/wallet.svg'
+import pay from '../assets/images/pay.svg'
+import porta from '../assets/images/porta.svg'
+
 
 const Herocards = () => {
   return (
@@ -12,8 +17,7 @@ const Herocards = () => {
             <div className="ml-3 mt-3 grid-cols-1 justify-between">
             <p className="text-gray-400 font-mono">DISTRIBUTIION</p>
              <div className="mt-5">
-             <img src="" alt="" />
-             <p className="text-2xl font-bold">Wallet</p>
+             <img src={wallet} className='w-20' alt="" />
              </div>
             </div>
         
@@ -24,8 +28,7 @@ const Herocards = () => {
             <div className="ml-3 mt-3 grid-cols-1 justify-between">
             <p className="text-gray-400 font-mono">DISTRIBUTIION</p>
              <div className="mt-5">
-             <img src="" alt="" />
-             <p className="text-2xl font-bold">Hub</p>
+             <img src={pay} className='w-14' alt="" />
              </div>
             </div>
         
@@ -36,8 +39,7 @@ const Herocards = () => {
             <div className="ml-3 mt-3 grid-cols-1 justify-between">
             <p className="text-gray-400 font-mono">LIQUIDITY</p>
              <div className="mt-5">
-             <img src="" alt="" />
-             <p className="text-2xl font-bold">Pay</p>
+             <img src={hub} className='w-14' alt="" />
              </div>
             </div>
         
@@ -48,8 +50,7 @@ const Herocards = () => {
             <div className="ml-3 mt-3 grid-cols-1 justify-between">
             <p className="text-gray-400 font-mono">TOKEN</p>
              <div className="mt-5">
-             <img src="" alt="" />
-             <p className="text-2xl font-bold">$PORTAL</p>
+             <img src={porta} className='w-20' alt="" />
              </div>
             </div>
         
