@@ -7,6 +7,7 @@ import Joinsection from '../components/Joinsection'
 import Footer from '../components/layout/Footer'
 import Keysection from '../components/Keysection'
 import Tapsection from '../components/Tapsection'
+import Buildsection from '../components/Buildsection'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero />
       <Herocards />
       <Tapsection />
+      <Buildsection />
       <Joinsection />
       <Keysection />
       {/* <Footer />       */}
