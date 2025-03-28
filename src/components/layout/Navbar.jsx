@@ -1,13 +1,15 @@
 import React from 'react'
 import Blackbutton from '../ui/Blackbutton'
+import portal from '/src/assets/portal.svg'
+
 
 const Navbar = () => {
   return (
     <div>
               <nav className="flex  z-50 justify-between items-center px-48">
         <div className="flex mt-5 items-center gap-5" >
-          <span>
-            <img src="" alt="" />
+          <span className='flex '>
+            <img src={portal} className='w-8' alt="" />
             <h1 className="text-4xl font-serif"><b>Portal</b></h1>
           </span>
 
