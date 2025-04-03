@@ -23,15 +23,13 @@ const Herocards = () => {
         
         </div>
 
-        <div className="bg-gray-100 hover:bg-gray-200 w-96 h-24 p-2 rounded-2xl">
-            
+        <div className="bg-gray-100 hover:bg-gray-200 w-96 h-24 p-2 rounded-2xl">      
             <div className="ml-3 mt-3 grid-cols-1 justify-between">
             <p className="text-gray-400 font-mono">DISTRIBUTIION</p>
              <div className="mt-5">
              <img src={pay} className='w-14' alt="" />
              </div>
             </div>
-        
         </div>
 
         <div className="bg-gray-100 hover:bg-gray-200 w-96 h-24 p-2 rounded-2xl">
